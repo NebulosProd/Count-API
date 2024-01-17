@@ -7,7 +7,7 @@ Count API is a NodeJS Application that shows your Discord Bot Member- & GuildCou
 Clone the repository
 
 ```bash
-git clone https://github.com/NebulosProd/Count-API/.git
+git clone https://github.com/NebulosProd/Count-API.git
 ```
 
 Go into the Repository
