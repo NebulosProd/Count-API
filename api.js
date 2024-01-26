@@ -8,8 +8,8 @@ const fs = require ('fs');
 const enforceHttps = require('express-http-to-https').redirectToHTTPS;
 const botToken = 'Your Token';
 const server = https.createServer({
-    cert: fs.readFileSync('fullchain.pem'),
-    key: fs.readFileSync('privkey.pem')
+    # cert: fs.readFileSync('fullchain.pem'),
+    # key: fs.readFileSync('privkey.pem')
   }, app);
 
 server.listen(3000, () => {
